@@ -1,0 +1,39 @@
+toto jsou statisticke prumery z 30ti provedenych testu
+
+641 poziti jednoho souboru klice 101 - 114 znaku heslo, 9 - 20 % stejnych znaku ve slopci 641 hesel pod sebou viz. verze 1.1 testovani hesla - 1/6 souboru klice, vytezeni obsahu klice by bylo 16,5 %
+
+732  pouziti  cca. 10 - 23 %  stejnych znaku, to je 97 - 113 znaku dlouhe heslo, po cely rok maximalne 2 emaily(archivy) denne z jednoho souboru klice (delka plneho hesla pri prvnim pouziti klice je 126 znaku)
+
+1098  pouziti 18 - 30 %  88 - 103 znaku delka hesla, po cely rok max. 3 emaily denne z jednoho souboru klice
+1281  21 - 33 %  84 - 99  znaku delka hesla, 1/3 souboru klice, vytezeni obsahu klice by bylo  33% ---- <
+1464  25 - 35 %  82 - 94 znaku delka hesla, po cely rok max. 4 emaily denne z jednoho souboru klice
+1840  31 - 40 %  75 - 87 znaku delka hesla, po cely rok max. 5 emailu denne z jednoho souboru klice
+1992  33 - 41 %  74 - 84 znaku delka hesla, 1/2 souboru klice, vytezeni obsahu klice by bylo  50%
+
+tip:
+dalsi napad je moznost pouziti treba pololetniho souboru klice(u)
+pak by byly 4 soubory klice nazvu napr.
+
+od_JmenoOsoba-A_pro_JmenoOsoba-B_na_rok_2025_prvni_pololeti
+od_JmenoOsoba-A_pro_JmenoOsoba-B_na_rok_2025_druhe_pololeti
+od_JmenoOsoba-B_pro_JmenoOsoba-A_na_rok_2025_prvni_pololeti
+od_JmenoOsoba-B_pro_JmenoOsoba-A_na_rok_2025_druhe_pololeti
+
+a tak podobne, fantazii se meze nekladou
+vsechny vysledky uvedene zde nahore se v takovemto pripade jeste potom mohou delit 1/2 ve prospech sily hesla
+
+znovu pripominam to co jsem jiz psal v testovani hesel ve verzi 1.1 toto vse nahore
+uvedene samozdrejme plati pouze pri lusteni hesel mnou jiz popisovanou (verze 1.1) chronologickou cestou, jinak je delka hesla vzdy pevnych 126 znaku a heslo je v kazdem archivu jine, v kazdem pripade ale vzdy plati to je prvni lusteni musi byt plnych 126 znaku, bez toho to proste nepude nikdy, pak az teprve mohou ale nemusi nastat eventuelni ulevy ale pri znalosti tohoto sestemu pripadnim lustitelem samozdejme nenastanou...
+
+ps: lze si to predstavit treba jako docela znamou pocitacovou klicenku, kde pod jednim hesle mate ukrita dalsi
+ruzna pristupova hesla z dalsim sluzbam, tak tady je to jeste vylepseno o mnou jiz popisovane vylustenim "hlavniho"
+hesla se nedostanete ke vsemu ostatnimu ale pouze napr. k 1% vseho ostatniho a to jeste kdyz by vam pralo stesti ;)
+puste si v adresari "_testovani_hesla_v1.4" soubor "start_test_30.bat" a presvedcte se samy
+jeste takopva poznamka na zaver funkce random generuje pseudonahodne cislo, nikoliv nahodne, nevim jesli to neco znamena ale testovani bylo pro klid duse provedeno a vysledky jsou podle ocekavani, nejvice je to asi vydet u 1281 pouziti klice to je 1/3 plochy souboru klice (3844 radku) a tady nahodnost je od 21 % do 33 % ale nejni vyssi jak onech 33 % coz je presne
+autor 8.2.2025
+
+
+doplneno 11.2.2025
+dnes jsem jeste provedl test ktery je v ardesari "zacatek_nove_klice_a_5x_pouziti_vysledky/", jde o to ze byl pouzit novy klic 5x za sebou a v peti takovichto testech, nenastalo ani v jednom pripade zadne opakovani znaku a stejne pozici, znamena to tedy za takovato "klicenka" by byla chranena petici za sebou jdoucich 126 znaku dlouhych hesel
+pozn. pri vice jak 5ti opakovanich se uz vetsinou nejaka ta minimalni shoda (alespon 1x) vyskytne ale do 5ti se me podarilo ze nenastalo 5x za sebou vubec nic
+
