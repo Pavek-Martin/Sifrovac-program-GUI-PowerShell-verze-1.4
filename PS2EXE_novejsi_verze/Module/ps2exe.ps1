@@ -2829,3 +2829,10 @@ $(if (!$noConsole) {@"
 		}
 	}
 }
+
+cls
+Get-Help Invoke-ps2exe -Full
+Set-Clipboard "Invoke-ps2exe ."
+Write-Host -ForegroundColor red "toto je nyni v clipboardu Ctrl+C : Invoke-ps2exe ."
+
+
