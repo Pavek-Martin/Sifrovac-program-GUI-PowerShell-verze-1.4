@@ -88,7 +88,7 @@ $pole_out+=""
 $poc_1=1
 $jeden_radek="000--"
 for ( $ff = 0; $ff -le 125; $ff++){ # 126 znaku hesla, radky 0-125
-for ( $gg = 0; $gg -le 3943; $gg++){ # delka kazdeho radku je 3844 znaku ( 0-3843 v1.3 )
+for ( $gg = 0; $gg -le 3843; $gg++){ # delka kazdeho radku je 3844 znaku ( 0-3843 v1.3 ) 3943 puvodne ?! asi byla chyba !
 $jeden_radek+=$matrix[$ff][$gg]
 }
 
